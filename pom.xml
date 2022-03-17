@@ -66,4 +66,10 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+   <snapshotRepository>
+      <id>maven-test-repository</id>
+      <url>http://host.docker.internal:8081/repository/maven-test-repository</url>
+   </snapshotRepository>
+  </distributionManagement>
 </project>
